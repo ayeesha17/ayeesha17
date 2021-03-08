@@ -1,0 +1,39 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  font-size: 2rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: scroll;
+  overflow-x: scroll;
+}
+th {
+  height: 70px;
+}
+td {
+  text-align: center;
+  vertical-align: bottom;
+  height: 50px;
+}
+th,
+td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {
+  background-color: #f5f5f5;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+th {
+  background-color: rgb(224, 47, 76);
+  color: white;
+}
+ .flex{
+  display: flex;
+  flex-direction: column;
+} 
